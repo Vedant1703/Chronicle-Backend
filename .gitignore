@@ -18,3 +18,49 @@
 
 # Hardhat coverage reports
 /coverage
+
+
+# Node.js / Server
+# ---------------------------
+# Dependencies
+/node_modules
+
+# Local Environment Variables
+# Never commit secrets!
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# Hardhat / Blockchain
+# ---------------------------
+# Hardhat build artifacts
+/artifacts
+/cache
+/coverage
+coverage.json
+/typechain-types
+
+# Hardhat reports
+/reports
+
+
+# General
+# ---------------------------
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
